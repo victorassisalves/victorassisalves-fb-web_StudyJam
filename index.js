@@ -191,7 +191,4 @@ function unsubscribeCurrentRSVP(){
  }
  rsvpYes.className="";
  rsvpNo.className="";
-}
-
-
-var pass = "rpLDQf2VQR7Jrtg"
+};
