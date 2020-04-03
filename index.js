@@ -67,6 +67,7 @@ const ui = new firebaseui.auth.AuthUI(firebase.auth());
 startRsvpButton.addEventListener('click', () => {
   if (firebase.auth().currentUser) {
     // Usuário logado
+    console.log("DesLoguei!!!")
     firebase.auth().signOut()
   } else {
     // Usuário não logado
